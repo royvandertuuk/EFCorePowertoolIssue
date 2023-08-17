@@ -2,7 +2,7 @@
 
 namespace EfCorePowertools.Data;
 
-public sealed class TestContext : DbContext
+internal sealed class TestContext : DbContext
 {
     public TestContext()
     { }
